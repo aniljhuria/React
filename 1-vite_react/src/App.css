@@ -1,0 +1,131 @@
+.parent{
+  width:100%;
+  display:flex;
+}
+.card{
+  width:300px; 
+  border:2px solid #000;
+  padding: 5px;
+  gap: 20;
+  margin: 5px;
+  text-align: center;  
+}
+.card img{
+  width:100px;
+  height:100px;
+  border-radius: 50%;
+}
+.card button{
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  margin-top: 7px;
+}
+
+.parents{
+  min-height:100vh;
+  background-color: #111;
+  padding: 30px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.cards{
+  width: 225px;
+  background-color: #fff;
+  border-radius:15px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cards .top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom:30px;
+}
+
+.top img{
+  height:45px;
+  width: 45px;
+  border-radius: 50%;
+  padding: 1px;
+  border: 1px solid #dadada;
+}
+
+.top button{
+  display: flex;
+  align-items: center;
+  border: 1px solid #dadada;
+  padding: 3px 7px;
+  font-size: 10px;
+  border-radius: 5px;
+  gap:3px;
+  background-color: transparent;
+  color: #b1b1b1;
+  
+}
+
+.center h3{
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 0px;
+    color: #000;
+  }
+.center h3 span{
+  font-size: 9px;
+  font-weight: 400;
+  color: #b5b5b5;
+}
+
+.center h2{
+    font-size: 19px;
+    line-height: 0px;
+    font-weight: 500;
+}
+
+.center .tag{
+  display: flex;
+  margin-top:10px;
+  gap: 5px;
+      margin-bottom: 40px;
+}
+
+.center .tag h4{
+  font-size: 10px;
+  background-color:#a7a7a73d;
+  color: #111;   
+  padding: 2px 8px;
+  border-radius: 3px;
+}
+
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1.5px solid #d7d7d7;
+  padding-top: 15px;
+}
+.bottom button {
+  background-color: #000;
+  color: #fff;
+  padding: 7px 11px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.bottom h3{
+  font-size: 13px;
+  line-height: 0px;
+  line-height: 2px;
+}
+
+.bottom p{
+  font-size: 10px;
+  color: #8b8b8b;
+  line-height: 2px;
+}
