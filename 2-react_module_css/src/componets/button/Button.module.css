@@ -1,0 +1,8 @@
+.btn{
+    background-color:red;
+    width: fit-content;
+    padding:10px;
+    margin:2px;
+    border-radius: 10px;
+    color: #fff;
+}
